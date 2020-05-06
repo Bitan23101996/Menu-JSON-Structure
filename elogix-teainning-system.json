@@ -1,0 +1,144 @@
+[{
+        "menuId": 1,
+        "parentMenuId": 0,
+        "menuTitle": "Dashboard",
+        "menuAction": "/dashboard",
+        "level": 0,
+        "maxLevel": 2,
+        "menuLists": null,
+        "menuIconUrl": "fa fa-tachometer",
+        "active": false
+    },
+    {
+        "menuId": 2,
+        "parentMenuId": 0,
+        "menuTitle": "Training Material",
+        "menuAction": "/document",
+        "level": 0,
+        "maxLevel": 2,
+        "menuLists": null,
+        "menuIconUrl": "fa fa-file-text",
+        "active": false
+    },
+    {
+        "menuId": 3,
+        "parentMenuId": 0,
+        "menuTitle": "Question Bank",
+        "menuAction": "/question",
+        "level": 0,
+        "maxLevel": 2,
+        "menuLists": null,
+        "menuIconUrl": "fa fa-question-circle",
+        "active": false
+    },
+    {
+        "menuId": 4,
+        "parentMenuId": 0,
+        "menuTitle": "Training",
+        "menuAction": "/training",
+        "level": 0,
+        "maxLevel": 2,
+        "menuLists": null,
+        "menuIconUrl": "fa fa-book",
+        "active": false
+    },
+    {
+        "menuId": 5,
+        "parentMenuId": 0,
+        "menuTitle": "Testing",
+        "menuAction": "/testing/test",
+        "level": 0,
+        "maxLevel": 2,
+        "menuLists": null,
+        "menuIconUrl": "fa fa-bar-chart",
+        "active": false
+    },
+    {
+        "menuId": 6,
+        "parentMenuId": 0,
+        "menuTitle": "Master",
+        "menuAction": null,
+        "level": 0,
+        "maxLevel": 2,
+        "menuIconUrl": "fa fa-users",
+        "active": false,
+        "menuLists": [{
+                "menuId": 99,
+                "parentMenuId": 6,
+                "menuTitle": "Menu Permission",
+                "menuAction": "/master/menu-permission",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "Roles & Right",
+                "menuAction": "/master/roles",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "Department",
+                "menuAction": "/master/department",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "Designation",
+                "menuAction": "/master/designation",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "Location",
+                "menuAction": "/master/location",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "Group",
+                "menuAction": "/master/group",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            },
+            {
+                "menuId": 7,
+                "parentMenuId": 6,
+                "menuTitle": "User",
+                "menuAction": "/master/users",
+                "level": 1,
+                "maxLevel": 2,
+                "menuLists": null,
+                "menuIconUrl": null,
+                "active": false
+            }
+        ]
+    }
+]
